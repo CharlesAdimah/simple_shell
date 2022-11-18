@@ -75,6 +75,7 @@ int _putfd(char c, int fd)
 int _putsfd(char *str, int fd)
 {
 	int i = 0;
+
 	if (!str)
 		return (0);
 	while (*str)
